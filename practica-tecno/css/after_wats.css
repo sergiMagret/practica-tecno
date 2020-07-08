@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	display: block;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+header > nav > a{
+	color: #023859;
+	font-size: 1.1em;
+}
+nav > a:hover{
+	color: #00CBE7;
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+nav{
+	position: fixed;
+	display: block;
+	background-color: #ECF6FF;
+	width: 100%;
+	border-bottom: 2px solid;
+	font-size: 1.1em;
+	height: 30px;
+	padding-top: 5px;
+	z-index: 2000;
+}
+p{
+	text-align: justify;
+}
+.contenedor{
+	height: 100%;
+	width: 90%;
+	margin: auto;
+	background-color: #fff;
+	text-align: justify;
+}
+.lateral ul{
+	position: fixed;
+	left: 0;
+	top: 200px;
+	display: block;
+	background-color: #1F3A6E;
+	max-width: 40px;
+	max-height: 135px;
+	padding-left: 7px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	-webkit-border-radius: 0 8px 8px 0;
+	-moz-border-radius: 0 8px 8px 0;
+	-ms-border-radius: 0 8px 8px 0;
+	-o-border-radius: 0 8px 8px 0;
+	border-radius: 0 8px 8px 0;
+	overflow: hidden;
+}
+.lateral ul li a{
+	color: #fff;
+}
+.lateral ul:hover{
+	background-color: #040030;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+.lateral ul a:hover{
+	color: #00CBE7;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.video{
+	display: block;
+	margin: auto;
+	padding: auto;
+	margin-top: 20px;
+}
+.video-derecha{
+	float: left;
+}
+.video-izquierda{
+	float: right;
+}
+#enlace > a{
+	text-decoration: underline;
+}
+#enlace > a:hover{
+	text-decoration: none;
+	color: #00CBE7;
+}
+
+
+/*Imagenes*/
+
+
+.img-line-logo{
+	float: left;
+	margin-right: 10px;
+	max-width: 150px;
+	max-height: 150px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-ms-border-radius: 8px 8px 8px 8px;
+	-o-border-radius: 8px 8px 8px 8px;
+	border-radius: 8px 8px 8px 8px;
+}
+.img-line-mobil{
+	display: block;
+	margin: auto;
+	padding: auto;
+	margin-top: 20px;
+	max-width: 200px;
+	max-height: 300px;
+}
+.img-vine-logo{
+	float: left;
+	margin-right: 10px;
+	max-width: 150px;
+	max-height: 150px;
+}
+.img-vine-mobil{
+	display: block;
+	margin: auto;
+	padding: auto;
+	margin-top: 20px;
+	max-width: 540px;
+	max-height: 300px;
+}
+.img-viber-logo{
+	float: left;
+	margin-right: 10px;
+	max-height: 150px;
+	max-width: 150px;
+}
+.img-llamadas-voip{
+	float: left;
+	margin-right: 10px;
+	max-height: 200px;
+	max-width: 200px;
+}
+.img-viber-mobil{
+	display: block;
+	margin: auto;
+	padding: auto;
+	max-height: 500px;
+	max-width: 515px;
+	margin-top: 20px;
+}
+.img-joyn-logo{
+	float: left;
+	margin-right: 10px;
+	max-height: 200px;
+	max-width: 200px;
+}

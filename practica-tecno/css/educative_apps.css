@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	display: block;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+header > nav > a{
+	color: #023859;
+	font-size: 1.1em;
+}
+nav > a:hover{
+	color: #00CBE7;
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+nav{
+	position: fixed;
+	display: block;
+	background-color: #ECF6FF;
+	width: 100%;
+	border-bottom: 2px solid;
+	font-size: 1.1em;
+	height: 30px;
+	padding-top: 5px;
+	z-index: 2000;
+}
+p{
+	text-align: justify;
+}
+.contenedor{
+	height: 100%;
+	width: 85%;
+	margin: auto;
+	background-color: #fff;
+	text-align: justify;
+}
+.lateral ul{
+	position: fixed;
+	left: 0;
+	top: 200px;
+	display: block;
+	background-color: #1F3A6E;
+	max-width: 83px;
+	max-height: 118px;
+	padding-left: 7px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	-webkit-border-radius: 0 8px 8px 0;
+	-moz-border-radius: 0 8px 8px 0;
+	-ms-border-radius: 0 8px 8px 0;
+	-o-border-radius: 0 8px 8px 0;
+	border-radius: 0 8px 8px 0;
+	overflow: hidden;
+}
+.lateral ul li a{
+	color: #fff;
+}
+.lateral ul:hover{
+	background-color: #040030;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+.lateral ul a:hover{
+	color: #00CBE7;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.video{
+	display: block;
+	margin: auto;
+	padding: auto;
+	margin-top: 20px;
+}
+.alwaysThinglink{
+	z-index: 1000;
+	max-width: 500px;
+	max-height: 600px;
+	margin-left: 200px;
+	margin-top: 20px;
+	display: block;
+}
+#lista-mindomo ul li{
+	list-style-type: disc;
+}
+#enlace a{
+	text-decoration: underline;
+	color: #1F3A6E;
+}
+#enlace a:hover{
+	text-decoration: none;
+	color: #00CBE7;
+}
+#power{
+	display: block;
+	margin: auto;
+	padding: auto;
+	margin-top: 20px;
+}
+
+
+/*Imagenes*/
+
+.khan-academy-logo{
+	float: left;
+	padding-right: 10px;
+	max-width: 175px;
+	max-height: 175px;
+}
+.img-mindomo-logo{
+	float: left;
+	padding-right: 10px;
+	max-width: 150px;
+	max-height: 150px;
+}
+.img-duolingo-logo{
+	float: left;
+	padding-right: 10px;
+	max-width: 150px;
+	max-height: 150px;
+}
+.img-duolingo-mobil{
+	display: block;
+	margin-top: 30px;
+	margin: auto;
+	padding: auto;
+	max-width: 200px;
+	max-height: 500px;
+}

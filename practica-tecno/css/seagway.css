@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	display: block;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+header > nav > a{
+	color: #023859;
+	font-size: 1.1em;
+}
+header > nav > a:hover{
+	color: #00CBE7;
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+nav{
+	position: fixed;
+	display: block;
+	background-color: #ECF6FF;
+	width: 100%;
+	border-bottom: 2px solid;
+	font-size: 1.1em;
+	height: 30px;
+	padding-top: 5px;
+}
+p{
+	text-align: justify;
+}
+.video{
+	padding-left: 22px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.video1{
+	padding-left: 140px;
+	padding-top: 20px;
+}
+.contenedor{
+	width: 90%;
+	height: 100%;
+	margin: auto;
+	background-color: #fff;
+}
+
+/*Imagenes*/
+
+
+.img2{
+	max-width: 200px;
+	max-height: 400px;
+	padding-left: 20px;
+	float: left;
+	padding-right: 10px;
+}
+.img3{
+	max-width: 400px;
+	max-height: 200px;
+	float: left;
+	padding-right: 10px;
+}
+.img4{
+	max-width: 400px;
+	max-height: 200px;
+	float: right;
+	padding-left: 10px;
+}
+.img5{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
